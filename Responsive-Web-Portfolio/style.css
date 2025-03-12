@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #393E46;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #EEEEEE;
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #00ADB5;
+    color: #222831;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #00ADB5;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 15px;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    color: #00ADB5;
+}
+
+/* Footer */
+footer {
+    background-color: #393E46;
+    padding: 10px 0;
+    text-align: center;
+    color: #EEEEEE;
+    margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin-bottom: 10px;
+    }
+}

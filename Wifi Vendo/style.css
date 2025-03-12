@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.container {
+    width: 40%; 
+    padding: 5px;
+    margin: auto;
+    overflow: hidden; 
+    border: 2px solid black; 
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to right, rgb(116, 77, 189), rgb(255, 255, 255));
+    border-radius: 3px; 
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em; /* Sets the font size of the h1 element to 2em */
+    color: #333; /* Sets the color of the h1 element to #333 */
+    margin-bottom: 20px; /* Adds a bottom margin of 20px to the h1 element */
+}
+
+button {
+    background-color: #43c564; /* Sets the background color of the button element to #4CAF50 */
+    color: white; /* Sets the color of the button element to white */
+    padding: 10px 20px; /* Sets the padding of the button element to 10px on the top and bottom and 20px on the left and right */
+    border: none; /* Removes the border from the button element */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button element */
+    border-radius: 5px; /* Adds a border-radius of 5px to the button element */
+}
+
+button:hover {
+    background-color: #aeccb0; /* Changes the background color of the button element to #45a049 when hovering over it */
+}
+
+input[type="text"] {
+    width: 100%; /* Sets the width of the input element to 100% of its parent element */
+    padding: 10px; /* Sets the padding of the input element to 10px */
+    margin-top: 10px; /* Adds a top margin of 10px to the input element */
+    margin-bottom: 10px; /* Adds a bottom margin of 10px to the input element */
+    border-radius: 5px; /* Adds a border-radius of 5px to the input element */
+    border: 1px solid #ccc; /* Adds a 1px solid border around the input element with a color of #ccc */
+}
+
+ul {
+    list-style-type: none; /* Removes the default list-style-type from the ul element */
+    padding: 0; /* Removes the default padding from the ul element */
+    margin: 0; /* Removes the default margin from the ul element */
+}
+
+body {
+    background: linear-gradient(132deg, #000000,#00ff00, #0000ff,#e60073,#ff0000,#ffffff);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 15s ease infinite;
+  }
+  
+  @keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }

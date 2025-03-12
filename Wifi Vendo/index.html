@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wifi Vendo Sample</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Oclarit Vendo</h1>
+        <h2>How to use:</h2>
+        <ol>
+            <li>Press INSERT COIN</li>
+            <li>Drop Coin (Any amount)</li>
+            <li>Press DONE PAYING. Enjoy!</li>
+        </ol>
+        <h3>Status</h3>
+        <ul>
+            <li id="total-time">Total Time: 0Hr</li>
+            <li id="used-time">Used Time: 0Hr</li>
+            <li id="remaining-time">Remaining: 0Hr</li>
+            <li id="status">Status: INACTIVE</li>
+        </ul>
+        <button onclick="insertCoin()">Insert Coin</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="getUserInput()">Update Status</button>
+    </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #ffedfa 0%, #ec7fa9 100%);
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.navbar .logo {
+    color: #be5985;
+    font-size: 2rem; /* Increased font size */
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #be5985;
+    font-weight: bold;
+    font-size: 1.2rem; /* Increased font size */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for color and transform */
+}
+
+.nav-links li a:hover {
+    color: #ec7fa9; /* Change color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+.auth-buttons .btn {
+    background: #ec7fa9;
+    color: white;
+    border: none;
+    padding: 12px 18px; /* Increased padding */
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem; /* Increased font size */
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5%;
+    background: #fff5f8; /* Light pink background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.hero .hero-text {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use the same font */
+}
+
+.hero .hero-text h1 {
+    font-size: 3rem; /* Increased font size */
+    color: #be5985;
+}
+
+.hero .hero-text h1 span {
+    color: #ec7fa9;
+}
+
+.hero .hero-text p {
+    font-size: 1.5rem; /* Increased font size */
+    color: #333;
+    margin: 1rem 0;
+}
+
+.hero .hero-image img {
+    width: 60%; /* Increased width */
+    max-width: 600px; /* Increased max-width */
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 5px solid #ec7fa9; /* Add border to the image */
+}
+
+.hero .order-btn {
+    margin-top: 15px;
+    background: #ec7fa9;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px; /* Increased padding */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1.2rem; /* Increased font size */
+}
+
+.hero .order-btn:hover {
+    background: #be5985;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 500px;
+    text-align: center; /* Ensure consistent text alignment */
+}
+
+.hero-image img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.order-btn {
+    margin-top: 15px;
+    background: #fff;
+    color: #be5985;
+    font-weight: bold;
+}
+
+.flavors-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 2rem; /* Added padding for consistency */
+    background: #fff5f8; /* Light pink background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.flavor-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.flavor-btn {
+    background-color: #f8d7da;
+    border: none;
+    border-radius: 10px;
+    width: 200px; /* Increased width */
+    height: 60px; /* Increased height */
+    margin: 20px 0; /* Increased margin */
+    font-size: 24px; /* Increased font size */
+    color: #d63384;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavor-btn:hover {
+    background-color: #f5c2c7;
+}
+
+.flavors-title {
+    font-size: 2rem;
+    color: #be5985;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flavors-container hr {
+    width: 50%;
+    border: 1px solid #be5985;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 1.5rem; /* Increased padding */
+    background: #be5985;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.2rem; /* Increased font size */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero-text {
+        text-align: center;
+    }
+}

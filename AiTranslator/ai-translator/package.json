@@ -1,0 +1,23 @@
+{
+  "name": "ai-translator",
+  "version": "1.0.0",
+  "description": "A simple AI translator application that translates text between different languages.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "keywords": [
+    "translator",
+    "ai",
+    "language",
+    "translation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
